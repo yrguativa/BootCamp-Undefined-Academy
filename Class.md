@@ -5,7 +5,7 @@ This is a lith language for create content, this language is easy to read from s
 https://daringfireball.net/projects/markdown/syntax
 
 ## Task
-- [] Different between terminal emulator and terminal application.
+- [ ] Different between terminal emulator and terminal application.
 - [x] Update my profile in Github. [here](https://github.com/yrguativa)
 - [x] Table with commands learning today.
 - [x] Alias commons and util by me.
@@ -31,4 +31,12 @@ This plugin create web page from file markdown.
 npx @11ty/eleventy --serve
 ```
 
-2. Open browser with {host:port}/{filename}/ 
+2. Open browser with {host:port}/{filename}/
+
+Class 2: Git
+============
+
+## Task
+- [x] Different between distributed and centralized repository
+
+For centralized repositories, changes synced to only one place (remote repository) and  when the repository is distributed, changes are synced to other repositories (clients) that are on the network (not just one place).
