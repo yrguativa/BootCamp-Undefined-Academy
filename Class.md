@@ -1,9 +1,13 @@
 # Content 
-* [Class 1: Markdown](#class-1-markdown)
-* [Class 2: Git](#class-2-git)
-* [Class 3: HTML](#class-3-html)
-* [Class 4: CSS](#class-4-css)
+* Semana 1
+    * [Class 1: Markdown](#class-1-markdown)
+    * [Class 2: Git](#class-2-git)
+    * [Class 3: HTML](#class-3-html)
+    * [Class 4: CSS](#class-4-css)
+* Semana 2
+    * [Class 1: Introducción JS](#class-1-js-introduction)
 
+# SEMANA 1
 Class 1 Markdown
 =================
 This is a lith language for create content, this language is easy to read from source.
@@ -121,3 +125,41 @@ funciona de la siguiente manera: -> Margin -> border -> padding -> content
 
 ## Reference
 * [Web Design in 4 minutes](https://jgthms.com/web-design-in-4-minutes/) 
+
+# SEMANA 2
+
+Class 1 JS Introduction
+=======================
+
+* Una **Expresión** es una combinación de valores, variables, operadores y funciones que se evalúa para producir un resultado.
+
+* Una **Sentencia** es una instrucción que realiza una acción en el programa. Las sentencias pueden cambiar el estado de las variables, realizar operaciones de entrada/salida, controlar el fuljo de ejecución del programa, entre otras acciones.
+
+* Los **Operadores** son símbolos o palabras reservada q    ue se utilizan para realizar operaciones o comparaciones entre valores o variables.
+
+
+## Exercise
+Hugo, Paco y Luis tienen una cantidad desconocida de monedas cada uno.
+
+Sabemos que Paco tiene el doble de monedas que Hugo y que Luis tiene 10 monedas más que Paco.
+
+Si los tres juntos tienen un total de 85 monedas.
+
+### ¿Cuántas monedas tiene cada uno?
+
+```javascript
+// Asignamos la cantidad de monedas de Hugo, este valor es el que tienes que resolver. 
+let hugo = 0; // solution: 
+// Calculamos la cantidad de monedas de Paco y Luis en función de Hugo.
+let paco = 2 * hugo;
+let luis = paco + 10;
+
+// Sumamos las cantidades de monedas de los tres amigos 
+let total = hugo + paco + luis;
+
+if (total === 85) {
+    console.log("Hugo: " + hugo)
+    console.log("Paco: " + paco)
+    onsole.log("Luis: " + luis)
+}
+```
