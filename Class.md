@@ -6,6 +6,7 @@
     * [Class 4: CSS](#class-4-css)
 * Semana 2
     * [Class 1: Introducción JS](#class-1-js-introduction)
+    * [Class 2: JS POO](#class-2-js-poo)
 
 # SEMANA 1
 Class 1 Markdown
@@ -149,7 +150,7 @@ Si los tres juntos tienen un total de 85 monedas.
 
 ```javascript
 // Asignamos la cantidad de monedas de Hugo, este valor es el que tienes que resolver. 
-let hugo = 0; // solution: 
+let hugo = 0; // solution: 15
 // Calculamos la cantidad de monedas de Paco y Luis en función de Hugo.
 let paco = 2 * hugo;
 let luis = paco + 10;
@@ -163,3 +164,66 @@ if (total === 85) {
     onsole.log("Luis: " + luis)
 }
 ```
+
+Class 2 JS POO
+==============
+Creation of objects in JavaScript
+
+```javascript
+let human = {
+    name: 'Yilmer',
+    last_name: 'Guativa',
+    age: 29
+} 
+
+console.log(human);
+
+// add property and read property as array
+human.id = Symbol('yrguativa');
+console.log(human['id']);
+
+// delete properties of object
+delete human.last_name;
+```
+## Types of functions
+The functions en JS are first class  (that is the function are stored in the variables).
+
+* Function Statement
+```javascript
+function walk(who) // *who* parameter of function
+{ 
+    console.log(´I am {who} and I am walking´);
+}
+
+walk('Yilmer'); // 'yilmer' is argument of function
+```
+
+* Function Expression
+```javascript
+const walk = function () {
+    console.log("I'm walking");
+}
+
+walk();
+```
+
+## Puras y Impuras
+**PURAS**
+* No tiene efectos secundarios: No modifica ningún estado fuera de su alcance, como variables globales o referencias.
+* Es determinista: Esto significa que dada la misma entrada, siempre producirá la misma salida.
+
+## Los operadores lógicos
+- **OR: a || b || c** => retorna el primer valor verdadero
+- **AND: a && b && c** => retorna el primer valor falso
+- **NOT: !a** => retorna el valor contrario booleano
+
+## Operador Ternario ?
+```javascript
+let msg = age >= 18 ? "Adult" : "Young";
+```
+## Book
+<img src="https://github.com/getify/You-Dont-Know-JS/raw/2nd-ed/get-started/images/cover.png" width="200">
+
+This books is in [github](https://github.com/getify/You-Dont-Know-JS)
+
+
